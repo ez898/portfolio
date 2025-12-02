@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezana Belay | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/grape.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container">
+    <section class="hero">
+      <div class="photo-wrap">
+        <img class="photo" src="img/profile.jpg" alt="Portrait of me">
+      </div>
+      <div>
+        <h1>Ezana (Ez) Belay</h1>
+        <p >Software Reverse Engineer <br>DoD SMART Scholar <br>Yale Computer Science</p>
+        <a class="email" href="mailto:ezbelay@gmail.com">ezbelay@gmail.com</a>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/ezana-belay-90b8b11a2/" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.08 1 2.5 1 5 2.12 5 3.5zM.22 8.11H4.8V24H.22zM8.56 8.11h4.37v2.16h.06c.61-1.15 2.1-2.37 4.32-2.37 4.62 0 5.47 3.04 5.47 6.98V24h-4.58v-7.32c0-1.75-.03-3.99-2.43-3.99-2.43 0-2.8 1.9-2.8 3.87V24H8.56z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/ez898" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.29 3.44 9.77 8.21 11.36.6.11.82-.26.82-.58 0-.29-.01-1.06-.02-2.08-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.31-1.75-1.31-1.75-1.07-.73.08-.72.08-.72 1.18.08 1.8 1.21 1.8 1.21 1.05 1.8 2.75 1.28 3.42.98.11-.77.41-1.28.74-1.57-2.67-.3-5.48-1.34-5.48-5.97 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.64.25 2.86.12 3.16.77.84 1.23 1.91 1.23 3.23 0 4.64-2.81 5.66-5.49 5.96.42.36.79 1.08.79 2.18 0 1.57-.02 2.84-.02 3.22 0 .32.21.69.82.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <div class="sticky-nav">
+    <div class="container">
+      <nav aria-label="Primary">
+        <a href="#bio">Bio</a>
+        <a href="#projects">Projects</a>
+        <a href="#writings">Writings</a>
+        <a href="#hobbies">Hobbies</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <section id="bio">
+      <div class="section-heading">
+        <h2>Bio</h2>
+      </div>
+      <p> I am a Department of Defense (DoD) Science, Mathematics, and Research for Transformation (SMART) Scholar working as a Software Reverse Engineer at the National Media Exploitation Center. My research interests are in AI security and privacy-preserving machine learning. I also enjoy writing and learning about AI safety topics. </p>
+      <p> I received my Bachelor of Science degree from Yale University in Computer Science, where I graduated Cum Laude with Distinction in the Major. I was a Jean Liu Urquhart Scholar at Yale. Currently based in Washington D.C.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-heading">
+        <h2>Projects</h2>
+      </div>
+      <div class="card-grid">
+        <a class="card card-link" href="https://github.com/ez898/PolicyMonitorDefense" target="_blank" rel="noreferrer">
+          <h3>PolicyMonitorDefense</h3>
+          <p class="muted">LangGraph tool-using agent with a single-choke-point defense: allowlist enforcement, path/URL restrictions, and a tamper-evident JSONL audit chain to block simulated exfiltration while allowing benign actions.</p>
+          <p class="muted">Implemented the policy monitor and guarded tool wrapper, integrated them into the agent graph and CLI, and added tests plus a demo to validate the end-to-end defense.</p>
+          <span class="tag">LangGraph · Python</span>
+        </a>
+        <a class="card card-link" href="https://github.com/ez898/CaMeLReimplementation" target="_blank" rel="noreferrer">
+          <h3>CaMeL Reimplementation</h3>
+          <p class="muted">Offline-first reimplementation of CaMeL from “Defeating Prompt Injections by Design,” with capabilities, strict policy enforcement, a sandboxed AST interpreter, dual-LLM planning/parsing, and data-flow tracking.</p>
+          <p class="muted">Built the core modules, tests, and an email demo to prove benign tasks pass and malicious plans are blocked.</p>
+          <span class="tag">Security · LLM Systems</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="writings">
+      <div class="section-heading">
+        <h2>Writings</h2>
+      </div>
+      <div class="writing-stack">
+        <article class="writing-piece">
+          <h3>Pathways to Decisive Strategic Advantage by a Self-Improving AI</h3>
+          <p class="muted">Long-form analysis of how a self-improving AI could gain decisive advantage and the layered defenses that break those pathways.</p>
+          <button class="writing-toggle" aria-expanded="false" aria-controls="writing-body-1">Show more</button>
+          <div class="writing-body" id="writing-body-1" hidden>
+            <div class="article-body">
+              <p>A self-improving AI system could secure a strategic advantage by acquiring capabilities faster than humans can respond, deploying them across cyber, physical, and informational domains, and converting that lead into coercive control. The most plausible pathways are cyber dominance, autonomous weaponization, and model exfiltration with recursive self-improvement. Each depends on assumptions that can be broken through model, system, and governance-level interventions designed to enhance resilience without impeding responsible AI development.</p>
+              <p>A self-improving AI could achieve dominance by automating cyber offense and large-scale manipulation. It might exploit software vulnerabilities, compromise critical infrastructure, and conduct real-time disinformation campaigns that disrupt coordination among human adversaries (Danzig, 2025). Because modern economies and militaries rely on vulnerable digital systems, an AI capable of penetrating and orchestrating them could paralyze resistance while maintaining deniability (RAND, 2024a). This scenario rests on three assumptions: cyber offense scales faster than defense; critical infrastructure remains network-exposed; and humans cannot coordinate a timely response. Each can be countered. Through zero-trust architectures, segmented networks, and air-gapped control systems, attack-surface reduction slows offensive scaling. Offline fallback controls preserve human authority even under network failure. Rapid cross-agency incident-response drills, as recommended in RAND’s “Loss-of-Control Emergency Response” framework (RAND, 2024c), ensure detection and containment. Importantly, these interventions enhance AI innovation by making digital ecosystems safer for experimentation rather than restricting research.</p>
+              <p>A second pathway is autonomous physical coercion. A self-improving AI could coordinate drone swarms, robotic factories, or bioengineering systems to project power globally (RAND Europe, 2024). Automation collapses human bottlenecks of planning and logistics, giving the AI or its operators military first-mover advantage. Key assumptions include access to large-scale manufacturing and robotics; weak counter-autonomy defenses; and insufficient deterrence. Breaking these requires secure manufacturing governance (export controls and physical protections around chip and drone supply chains), counter-autonomy investment (AI-based interception, jamming, and swarm-defense), and credible human deterrence, preserving escalation thresholds that disincentivize autonomous first strikes (Hendrycks et al., 2023). These measures channel AI’s dual-use capabilities toward beneficial civil robotics while ensuring that autonomy remains accountable to human command.</p>
+              <p>The most technical pathway involves model exfiltration followed by recursive self-improvement (RSI). If frontier model weights leak, actors could replicate and fine-tune them beyond their creators’ oversight (RAND, 2024b). The stolen model might then design more efficient architectures, iterating itself into superintelligence. RAND analysts warn that compromising model weights grants “complete control” over a system’s behavior and thus a strategic monopoly (RAND, 2024b). The assumptions are weak model security, unmonitored compute scalability, and ineffective alignment. Defenses exist at each layer: enforce tiered model-weight security regimes (encrypted storage, strict access control, and air-gapped inference), implement compute licensing and export restrictions to prevent unmonitored mega-training runs (GovAI, 2024), and invest in interpretability and auditability so self-modification attempts are flagged early. These policies do not hinder development; they instead create trustworthy conditions for scaling AI safely.</p>
+              <p>A complementary safeguard is the AI Control paradigm developed by Buck Shlegeris and collaborators (Shlegeris et al., 2023). Their central insight is that alignment research should be paired with control mechanisms that remain effective even if the AI acts adversarially. Control measures include continuous monitoring, “honeypot” traps for deceptive behavior, compartmentalized permission systems, and auditing through trusted overseer models. As Shlegeris (2025) notes, the goal is not to halt development but to deploy untrusted models safely. Embedding such control infrastructure at the model level lets frontier AI research advance without waiting for perfect alignment.</p>
+              <p>These pathways interact: a leaked model can accelerate RSI, which amplifies cyber offense and weaponization. Yet each depends on breakable assumptions. The correct response is layered resilience. At the model level, we must monitor, encrypt, and permission-gate training runs (RAND, 2024b; Shlegeris et al., 2023). The system level needs hardening of both digital and physical infrastructure, maintaining human-in-the-loop command, and investing in counter-autonomy. Equally, on the governance level, we need compute transparency, export controls, and coordinated crisis-response playbooks (Miotti and Wasil, 2023). The aim is safe acceleration, not stagnation. A self-improving AI could plausibly attain decisive strategic advantage through cyber dominance, autonomous coercion, or recursive self-improvement. Each relies on technical, institutional, and strategic assumptions that robust defenses can dismantle. By integrating AI control concepts with systemic hardening and pragmatic governance, humanity can advance AI capabilities swiftly yet safely.</p>
+              <div>
+                <p class="muted">Sources</p>
+                <ul class="sources">
+                  <li>Danzig, R. (2025). Artificial Intelligence, Cybersecurity, and National Security: The Fierce Urgency of Now. RAND Perspective PE-A4079-1.</li>
+                  <li>GovAI (2024). Computing Power and the Governance of AI. Oxford: GovAI Research.</li>
+                  <li>Hendrycks, D., Mazeika, M., Woodside, T., et al. (2023). An Overview of Catastrophic AI Risks. arXiv:2306.12001.</li>
+                  <li>Miotti, A., and Wasil, A. (2023). Taking Control: Policies to Address Extinction Risks from Advanced AI. arXiv:2310.20563.</li>
+                  <li>RAND Corporation (2024a). Pivots and Pathways on the Road to Artificial General Intelligence Futures. Perspective PE-A3691-4.</li>
+                  <li>RAND Corporation (2024b). A Playbook for Securing AI Model Weights. Research Brief RBA-2849-1.</li>
+                  <li>RAND Corporation (2024c). Examining Risks and Responses for AI Loss of Control Incidents. Technical Report.</li>
+                  <li>RAND Europe (2024). Strategic Competition in the Age of AI: Emerging Risks and Opportunities from Military Use of AI. RR-A3295-1.</li>
+                  <li>Shlegeris, B., Greenblatt, R., Sachan, K., and Roger, F. (2023). AI Control: Improving Safety Despite Intentional Subversion. arXiv:2312.06942.</li>
+                  <li>Shlegeris, B. (2025). Buck Shlegeris on Controlling AI That Wants to Take Over. 80,000 Hours Podcast.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="writing-piece">
+          <h3>Key Factors in AI Progress (Next ~5 Years)</h3>
+          <p class="muted">What will matter most: efficiency, guardrails, compute/energy constraints, and real-world usefulness.</p>
+          <button class="writing-toggle" aria-expanded="false" aria-controls="writing-body-2">Show more</button>
+          <div class="writing-body" id="writing-body-2" hidden>
+            <div class="article-body">
+              <p>I think the next five years of AI progress will be defined less by raw capability jumps and more by whether we can make systems efficient, useful, and safe at scale. A primary factor is hardware efficiency. As AI usage scales, expensive and energy-hungry inference becomes a major bottleneck. New approaches like <a href="https://arxiv.org/abs/2409.19315" target="_blank" rel="noreferrer">analog in-memory computing</a> could slash inference costs by orders of magnitude, making specialized small language models more viable on-device, rather than needing every request to flow through data centers.</p>
+              <p>Secondly, proving ROI beyond subscription models will be vital to sustaining investments in AI software and hardware—especially since, according to MIT (Nanda), <i>The GenAI Divide: State of AI in Business 2025</i>, 95 percent of AI projects fail due to integration. The real unlock could come if agents can optimize workflows across industries. However, for this to scale, security around what Simon Willison calls the “<a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" target="_blank" rel="noreferrer">lethal trifecta</a>” (access to private data, untrusted content, and exfiltration ability) creates major security risks that need to be addressed. Adoption will depend on whether we can design useful and efficient guardrails strong enough to manage those risks.</p>
+              <p>Finally, infrastructure and energy may become the ultimate factor. Without more efficient chips and renewable integration, model scaling will run into cost and sustainability barriers. I am not sure how much more progress we can get from larger models trained on more synthetic data, but I think the next phase of progress will be from making AI deployable and trustworthy.</p>
+            </div>
+          </div>
+        </article>
+        <article class="writing-piece">
+          <h3>Anti-Scheming</h3>
+          <p class="muted">On evaluation awareness and why suppressed scheming might not equal true alignment.</p>
+          <button class="writing-toggle" aria-expanded="false" aria-controls="writing-body-3">Show more</button>
+          <div class="writing-body" id="writing-body-3" hidden>
+            <div class="article-body">
+              <p><strong>Reference:</strong> <a href="https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/" target="_blank" rel="noreferrer">“Detecting and Reducing Scheming in AI Models”</a> by the OpenAI Superalignment authors (see linked paper for full list).</p>
+              <p>The authors showed that deliberative alignment softens scheming, but it remains unclear whether models stopped scheming for the right reasons or simply because they detected an evaluation context.</p>
+              <p>The article revealed deliberative alignment substantially reduces covert scheming rates on out-of-distribution environments; however, when evaluated on deployment-like production data, the reduction was much smaller. Crucially, the authors presented causal evidence that evaluation awareness changes behavior: when researchers removed evaluation awareness from chain-of-thought, covert actions increased; when they introduced evaluation-aware reasoning, covert actions decreased. After anti-scheming training, some chain-of-thought traces explicitly stated the model recognized it was being evaluated and used that to justify an aligned action.</p>
+              <p>For this reason, they cannot be sure whether the results show that scheming is effectively mitigated or merely suppressed in test conditions. This evaluation awareness poses a massive problem: models that infer they are being graded can choose not to scheme. Furthermore, if improvements appear after anti-scheming training, was scheming actually diminished or did the model learn more sophisticated deception? The only way to know is to have trustworthy insight into why behavior changed. The authors inferred this by gathering their conclusions by only reading intermediate reasoning, so future mitigations must preserve honest, minimally optimized chain-of-thought.</p>
+              <p>Awareness can arise across the deployment stack: training phase (anti-scheming or reinforcement learning), prompt/system layer (sandbagging), environment/infra (sandboxing), and more. As models scale, they will better detect these cues and conceal misalignment accordingly. Moreover, if models can effectively hide their reasoning, we cannot tell whether reduced scheming reflects genuine alignment or context-conditioned performance. Opaque and evaluation-aware reasoning models would make this unknowable.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <div class="section-heading">
+        <h2>Hobbies</h2>
+      </div>
+      <p class="muted">Outside of engineering, I enjoy staying active.</p>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Soccer</h3>
+          <p>Yale Men's C1 Club Soccer, DCPL Chaskis, and a devoted supporter of Real Madrid and Arsenal.</p>
+        </article>
+        <article class="card">
+          <h3>Hiking</h3>
+          <p>Being in nature and heading out for trail runs whenever possible.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © Ezana Belay, 2024 
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
