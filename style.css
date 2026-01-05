@@ -48,7 +48,7 @@ img {
 }
 
 header {
-  padding: 4rem 0 2rem;
+  padding: 2rem 0 0;
   position: relative;
 }
 
@@ -63,7 +63,7 @@ header {
   width: min(320px, 80vw);
   aspect-ratio: 1 / 1;
   border-radius: 26px;
-  background: #f0e9de;
+  background: #e7cba1;
   padding: 12px;
   box-shadow: var(--shadow);
   position: relative;
@@ -120,7 +120,7 @@ h3 {
   display: flex;
   gap: 0.9rem;
   align-items: center;
-  margin: 0.9rem 0 1rem;
+  margin: 0.9rem 0 0.2rem;
 }
 
 .socials a {
@@ -159,7 +159,7 @@ h3 {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(8px);
-  background: rgba(246, 241, 232, 0.95);
+  background: #f6f2e8;
   border-bottom: 1px solid var(--border);
 }
 
@@ -190,23 +190,26 @@ main {
 }
 
 section {
-  margin-bottom: 3.5rem;
   padding-top: 2rem;
+  padding-bottom: 1.5rem;
   scroll-margin-top: 90px;
+  background: #f6f1e8;
 }
 
 #bio p {
   font-size: 1.05rem;
   line-height: 1.85;
   color: var(--text);
-  max-width: 820px;
+  padding: 0 1rem;
+  max-width: none;
 }
 
 .bio-text {
   font-size: 1.05rem;
   line-height: 1.85;
   color: var(--text);
-  max-width: 760px;
+  padding: 0 1rem;
+  max-width: none;
 }
 
 .section-heading {
